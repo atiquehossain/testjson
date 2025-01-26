@@ -8,7 +8,7 @@
       "title": {
         "type": "Text",
         "text": "Resume",
-        "style": {
+        "style": { 
           "color": "#FFFFFF",
           "fontSize": 22,
           "fontWeight": "bold"
