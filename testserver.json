@@ -1,142 +1,140 @@
 {
-  "flutter_home_code": {
-    "type": "Scaffold",
-    "backgroundColor": "#f4f4f4",
-    "appBar": {
-      "type": "AppBar",
-      "backgroundColor": "#6200EE",
-      "title": {
-        "type": "Text",
-        "text": "Resume",
-        "style": { 
-          "color": "#FFFFFF",
-          "fontSize": 22,
-          "fontWeight": "bold"
-        }
+  "type": "Scaffold",
+  "backgroundColor": "#f4f4f4",
+  "appBar": {
+    "type": "AppBar",
+    "backgroundColor": "#6200EE",
+    "title": {
+      "type": "Text",
+      "text": "Resume",
+      "style": { 
+        "color": "#FFFFFF",
+        "fontSize": 22,
+        "fontWeight": "bold"
       }
-    },
-    "body": {
-      "type": "Center",
+    }
+  },
+  "body": {
+    "type": "Center",
+    "child": {
+      "type": "Padding",
+      "padding": {
+        "top": 20,
+        "left": 20,
+        "right": 20,
+        "bottom": 20
+      },
       "child": {
-        "type": "Padding",
-        "padding": {
-          "top": 20,
-          "left": 20,
-          "right": 20,
-          "bottom": 20
-        },
-        "child": {
-          "type": "Column",
-          "mainAxisAlignment": "center",
-          "crossAxisAlignment": "center",
-          "children": [
-            {
-              "type": "CircleAvatar",
-              "backgroundImage": {
-                "type": "NetworkImage",
-                "url": "https://i.pinimg.com/280x280_RS/0e/df/b6/0edfb6a1f3a458cf1d01d03012717ac3.jpg"
-              },
-              "radius": 60
+        "type": "Column",
+        "mainAxisAlignment": "center",
+        "crossAxisAlignment": "center",
+        "children": [
+          {
+            "type": "CircleAvatar",
+            "backgroundImage": {
+              "type": "NetworkImage",
+              "url": "https://i.pinimg.com/280x280_RS/0e/df/b6/0edfb6a1f3a458cf1d01d03012717ac3.jpg"
             },
-            {
-              "type": "SizedBox",
-              "height": 20
-            },
-            {
-              "type": "Text",
-              "text": "Atique Hossain",
-              "style": {
-                "fontSize": 28,
-                "fontWeight": "bold",
-                "color": "#333333"
-              }
-            },
-            {
-              "type": "Text",
-              "text": "Software Engineer",
-              "style": {
-                "fontSize": 20,
-                "fontStyle": "italic",
-                "color": "#666666"
-              }
-            },
-            {
-              "type": "SizedBox",
-              "height": 10
-            },
-            {
-              "type": "Text",
-              "text": "Email: nsuatique@gmail.com",
-              "style": {
-                "fontSize": 16,
-                "color": "#333333"
-              }
-            },
-            {
-              "type": "SizedBox",
-              "height": 20
-            },
-            {
-              "type": "Row",
-              "mainAxisAlignment": "center",
-              "children": [
-                {
-                  "type": "ElevatedButton",
-                  "child": {
-                    "type": "Text",
-                    "text": "LinkedIn",
-                    "style": {
-                      "color": "#FFFFFF"
-                    }
-                  },
-                  "onPressed": {
-                    "action": "print",
-                    "value": "https://www.linkedin.com/in/atique-hossain/"
-                  },
+            "radius": 60
+          },
+          {
+            "type": "SizedBox",
+            "height": 20
+          },
+          {
+            "type": "Text",
+            "text": "Atique Hossain",
+            "style": {
+              "fontSize": 28,
+              "fontWeight": "bold",
+              "color": "#333333"
+            }
+          },
+          {
+            "type": "Text",
+            "text": "Software Engineer",
+            "style": {
+              "fontSize": 20,
+              "fontStyle": "italic",
+              "color": "#666666"
+            }
+          },
+          {
+            "type": "SizedBox",
+            "height": 10
+          },
+          {
+            "type": "Text",
+            "text": "Email: nsuatique@gmail.com",
+            "style": {
+              "fontSize": 16,
+              "color": "#333333"
+            }
+          },
+          {
+            "type": "SizedBox",
+            "height": 20
+          },
+          {
+            "type": "Row",
+            "mainAxisAlignment": "center",
+            "children": [
+              {
+                "type": "ElevatedButton",
+                "child": {
+                  "type": "Text",
+                  "text": "LinkedIn",
                   "style": {
-                    "backgroundColor": "#6200EE",
-                    "padding": {
-                      "vertical": 10,
-                      "horizontal": 20
-                    },
-                    "shape": {
-                      "type": "RoundedRectangleBorder",
-                      "borderRadius": 15
-                    }
+                    "color": "#FFFFFF"
                   }
                 },
-                {
-                  "type": "SizedBox",
-                  "width": 10
+                "onPressed": {
+                  "action": "print",
+                  "value": "https://www.linkedin.com/in/atique-hossain/"
                 },
-                {
-                  "type": "ElevatedButton",
-                  "child": {
-                    "type": "Text",
-                    "text": "GitHub",
-                    "style": {
-                      "color": "#FFFFFF"
-                    }
+                "style": {
+                  "backgroundColor": "#6200EE",
+                  "padding": {
+                    "vertical": 10,
+                    "horizontal": 20
                   },
-                  "onPressed": {
-                    "action": "open_github"
-                  },
-                  "style": {
-                    "backgroundColor": "#333333",
-                    "padding": {
-                      "vertical": 10,
-                      "horizontal": 20
-                    },
-                    "shape": {
-                      "type": "RoundedRectangleBorder",
-                      "borderRadius": 15
-                    }
+                  "shape": {
+                    "type": "RoundedRectangleBorder",
+                    "borderRadius": 15
                   }
                 }
-              ]
-            }
-          ]
-        }
+              },
+              {
+                "type": "SizedBox",
+                "width": 10
+              },
+              {
+                "type": "ElevatedButton",
+                "child": {
+                  "type": "Text",
+                  "text": "GitHub",
+                  "style": {
+                    "color": "#FFFFFF"
+                  }
+                },
+                "onPressed": {
+                  "action": "open_github"
+                },
+                "style": {
+                  "backgroundColor": "#333333",
+                  "padding": {
+                    "vertical": 10,
+                    "horizontal": 20
+                  },
+                  "shape": {
+                    "type": "RoundedRectangleBorder",
+                    "borderRadius": 15
+                  }
+                }
+              }
+            ]
+          }
+        ]
       }
     }
   }
