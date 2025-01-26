@@ -26,7 +26,7 @@
           "bottom": 20
         },
         "child": {
-          "type": "Column",
+          "type": "Row",
           "mainAxisAlignment": "center",
           "crossAxisAlignment": "center",
           "children": [
