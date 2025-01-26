@@ -1,23 +1,23 @@
 "flutter_home_code": {
               "type": "Scaffold",
-              "backgroundColor": "#f4f4f4",  # Light background color for the whole screen
+              "backgroundColor": "#f4f4f4",  
               "appBar": {
                   "type": "AppBar",
-                  "backgroundColor": "#6200EE",  # AppBar with a nice color
+                  "backgroundColor": "#6200EE",  
                   "title": {
                       "type": "Text",
                       "text": "Resume",
                       "style": {
-                          "color": "#FFFFFF",  # White title color
+                          "color": "#FFFFFF",  
                           "fontSize": 22,
                           "fontWeight": "bold"
                       }
                   }
               },
               "body": {
-                  "type": "Center",  # Center everything
+                  "type": "Center", 
                   "child": {
-                      "type": "Padding",  # Add padding around the body content
+                      "type": "Padding",  
                       "padding": {
                           "top": 20,
                           "left": 20,
@@ -26,8 +26,8 @@
                       },
                       "child": {
                           "type": "Column",
-                          "mainAxisAlignment": "center",  # Vertically center the content
-                          "crossAxisAlignment": "center",  # Horizontally center the content
+                          "mainAxisAlignment": "center", 
+                          "crossAxisAlignment": "center",  
                           "children": [
                               {
                                   "type": "CircleAvatar",
@@ -38,7 +38,7 @@
                                   "radius": 60
                               },
                               {
-                                  "type": "SizedBox",  # Space between avatar and text
+                                  "type": "SizedBox",  
                                   "height": 20
                               },
                               {
@@ -60,7 +60,7 @@
                                   }
                               },
                               {
-                                  "type": "SizedBox",  # Space between role and email
+                                  "type": "SizedBox", 
                                   "height": 10
                               },
                               {
@@ -72,12 +72,12 @@
                                   }
                               },
                               {
-                                  "type": "SizedBox",  # Space between email and buttons
+                                  "type": "SizedBox", 
                                   "height": 20
                               },
                               {
                                   "type": "Row",  # Button row
-                                  "mainAxisAlignment": "center",  # Center buttons horizontally
+                                  "mainAxisAlignment": "center",  
                                   "children": [
                                       {
                                           "type": "ElevatedButton",
@@ -96,7 +96,7 @@
                                           }
                                       },
                                       {
-                                          "type": "SizedBox",  # Space between the two buttons
+                                          "type": "SizedBox",
                                           "width": 10
                                       },
                                       {
